@@ -3,7 +3,7 @@ const HeroSection = () => {
   return (
     <section className="bg-main-bg">
         <div className="hero-container">
-            <img src="images/hero-img1.png" 
+            <img src="images/static-img1.png" 
             alt="hero-img" 
             className="absolute bottom-0 left-1/2 -translate-x-1/2 object-auto scale-100 md:scale-150" />
 
@@ -13,12 +13,18 @@ const HeroSection = () => {
               </div>
               <div 
               style={{
-               // clipPath:"polygon(50% 0, 50% 0, 50% 100% ,50% 100%)",
+                clipPath:"polygon(50% 0, 50% 0, 50% 100% ,50% 100%)",
               }} 
               className="hero-text-scroll">
                 <div className="hero-subtitle">
                 <h1>Protein + Caffine</h1>
                 </div>
+              </div>
+              <h2>
+                The Ultimate Fitness Stop.
+              </h2>
+              <div className="hero-button">
+                <p> Shop Now </p>
               </div>
             </div>
         </div>
